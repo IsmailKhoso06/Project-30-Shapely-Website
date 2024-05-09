@@ -1,0 +1,534 @@
+
+.header-wraper{
+height:91px;
+}
+
+.navigation1{
+
+    padding-top: 17px;
+    margin-left:50px;
+font-size:70px;
+
+}
+
+.shapelydemo{
+font-size:30px;
+
+
+
+}
+                                                                         /*------- DropDown on Hover ------------------*/
+.dropdown:hover .dropdown-menu {
+
+display:block;
+
+}
+
+.search-icon{
+margin-left:0px;
+padding-top: 33px;
+color:#310070;
+
+
+}
+
+.navigation2{
+
+    padding-top: 17px;
+    margin-left:25px;
+
+
+
+}
+
+.ul1{
+
+gap:20px;
+font-size:15px;
+
+}
+
+
+
+.section-wraper1{
+background-image:url("E:/Code/Project 30/Assets/IMG/BG IMAGE!.jpg");
+height:100vh;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+
+
+
+
+}
+
+.text{
+    text-align: center;
+    color:white;
+    padding-top: 283px;
+
+
+}
+
+
+.text h1{
+
+font-weight:200;
+font-size:70px;
+margin-bottom:20px;
+
+}
+
+.readmore1{
+
+background:#7000ff;
+color:white;
+font-size:15px;
+padding:10px;
+font-weight:500;
+width:180px;
+border-radius:0px;
+
+
+}
+
+
+.readmore2{
+
+margin-left:461px;
+
+
+}
+
+.readmore1:hover{
+
+background:#310461;
+color:white;
+font-size:15px;
+
+}
+
+.downloadnow1{
+
+font-weight:500;
+color:white;
+font-size:15px;
+border:1px solid white;
+width:180px;
+border-radius:0px;
+height:44.1px;
+
+
+}
+
+
+.downloadnow1:hover{
+color:black;
+background:white;
+
+
+}   
+
+
+.section-wraper2{
+
+padding-top:130px;
+
+padding-bottom:110px;
+
+
+
+
+}
+
+
+.text2{
+
+padding-top:50px;
+padding-right:144px;
+
+
+
+}
+
+
+.text2 h3{
+font-size:30px;
+font-weight:400;
+
+margin-bottom:30px;
+
+}
+
+.text2 p{
+color:#b0b0b0;
+margin-bottom:30px;
+}
+
+
+
+
+.section-wraper3{
+
+padding-top:130px;
+background:#f5f5f5;
+padding-bottom:110px;
+
+
+
+
+}
+
+
+.text3{
+
+padding-top:50px;
+padding-left:144px;
+
+
+
+}
+
+
+.text3 h3{
+font-size:30px;
+font-weight:400;
+
+margin-bottom:30px;
+
+}
+
+.text3 p{
+color:#b0b0b0;
+margin-bottom:30px;
+
+}
+
+
+
+
+.section-wraper4{
+background-image:url("./Assets/IMG/BG IMAGE !!.jpg");
+height:55vh;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+
+
+
+
+}
+
+.text4{
+    text-align: center;
+    color:white;
+    padding-top: 90px;
+
+
+}
+
+
+.text4 h3{
+
+font-weight:200;
+font-size:50px;
+margin-bottom:20px;
+
+}
+
+.text4 p{
+text-align:center;
+margin-right:125px;
+margin-left:125px;
+
+
+
+}
+
+
+
+
+.text5{
+    text-align: center;
+    color:black;
+    padding-top: 90px;
+    padding-bottom: 30px;
+
+
+
+}
+
+
+.text5 h3{
+
+font-weight:200;
+    font-size: 50px;
+
+margin-bottom:20px;
+
+}
+
+.text5 p{
+color:#b0b0b0;
+
+text-align:center;
+margin-right:170px;
+margin-left:170px;
+
+
+
+}
+
+.text6 img{
+    margin-left: 5%;
+
+
+}
+
+.section-wraper7{
+
+color:white;
+background:black;
+
+}
+
+
+.text7{
+    text-align: center;
+
+
+    padding-top: 90px;
+    padding-bottom: 30px;
+
+
+
+}
+
+
+.text7 h3{
+
+font-weight:200;
+    font-size: 40px;
+
+margin-bottom:20px;
+
+}
+
+.text7 p{
+
+text-align:center;
+margin-right:170px;
+margin-left:170px;
+
+
+
+}
+
+.section-wraper8{
+
+background:black;
+
+}
+
+.section-wraper8 img{
+
+height:250px;
+width:330px;
+
+
+}
+
+
+
+
+
+.section-wraper8 .img10{
+
+height:250px;
+width:386px;
+
+
+
+}
+                                                /*---------Image Hover Effect -------*/
+                                      
+.img300 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.section-wraper8 img:hover {
+opacity:0.5;
+
+}
+
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left:100px;
+  right:0;
+  background-color:transparent;
+
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.img300:hover .overlay {
+  height: 100%;
+}
+
+
+.text300:hover {
+
+  background:transparent;
+}
+
+
+.text300 {
+  color: white;
+  font-size: 30px;
+  font-weight:500;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+                                   
+.section-wraper9{
+
+background-image:url("./Assets/IMG/IMG 4.jpg");
+height:100vh;
+padding-bottom:200px;
+background-attachment:fixed;
+
+
+}
+
+.section-wraper9 .slides{
+
+
+padding-top:200px;
+
+
+
+
+}
+
+
+.section-wraper9 .slides img{
+
+border-radius:50%;
+margin-left:43%;
+margin-bottom:350px;
+
+}
+
+
+.section-wraper9 .slide-captions{
+
+padding-bottom:500px;
+
+
+}
+
+
+.latestprojects{
+
+font-size:40px;
+color:white;
+text-align:center;
+padding-top:106px;
+font-weight:100;
+}
+
+
+.ourmainclients{
+
+
+color:black;
+text-align:center;
+padding-top:100px;
+padding-bottom:100px;
+font-weight:100;
+font-size:40px;
+
+}
+
+
+.section-wraper10 button{
+
+
+font-weight:400;
+color:white;
+background:#7000ff;
+margin-top:100px;
+
+font-size:16px;
+border:1px solid white;
+width:286px;
+border-radius:0px;
+height:68.1px;
+
+
+
+}
+
+
+.footer-wraper{
+
+background:black;
+height:25vh;
+
+
+}
+
+
+.footer-text{
+padding-top:100px;
+color:white;
+font-size:20px;
+
+}
+
+
+
+.footer-text a{
+
+color:white;
+text-decoration:none;
+}
+
+
+.icons a{
+
+gap:20px;
+}
+
+
+
+
+.icons a i{
+
+color:white;
+margin-left:5px;
+padding-top:100px;
+font-size:25px;
+margin-left:50px;
+
+}
